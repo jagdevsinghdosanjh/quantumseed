@@ -36,6 +36,45 @@ quantumseed/ ├── quantumseed_app.py # Streamlit entry point ├── quan
 Code
 
 ---
+## 🧭 Educator Onboarding Guide
+
+Welcome to *QuantumSeed*, where quantum logic meets poetic metaphor. This guide helps educators navigate the app and spark curiosity in every learner.
+
+### 🌱 Getting Started
+
+- Launch the app at [https://quantumseed.streamlit.app](https://quantumseed.streamlit.app)
+- Use the sidebar to toggle features:
+  - **Bloch Sphere**: Visualize qubit evolution
+  - **Metaphors**: Enable poetic overlays for each gate
+  - **Feedback Mode**: Choose adaptive, guided, or minimal feedback
+  - **Badge Display**: Show student progress and recognition
+  - **Metaphor Submission**: Allow students to contribute poetic insights
+
+### 🎓 Suggested Classroom Flow
+
+1. **Introduce Qubits**: Use Hadamard and Pauli gates to explore superposition and flips
+2. **Visualize States**: Enable Bloch sphere to show quantum evolution
+3. **Discuss Metaphors**: Invite students to interpret poetic overlays
+4. **Measure & Reflect**: Simulate measurement and discuss probabilistic outcomes
+5. **Submit Metaphors**: Encourage creative contributions
+6. **Celebrate Badges**: Recognize student engagement with poetic titles
+
+### 🧠 Tips for Engagement
+
+- Pair gate operations with real-world analogies
+- Use metaphors to bridge intuition and math
+- Invite students to “plant” their own metaphors
+- Host a “Quantum Garden” showcase of student submissions
+
+### 🛠️ Troubleshooting
+
+- If the Bloch sphere doesn’t render, check `matplotlib` installation
+- For badge tracking, ensure `data/badge_records.json` is writable
+- Metaphor submissions are stored in `data/student_submissions.json`
+
+---
+
+Would you like to scaffold a classroom activity sheet next, or design a poetic certificate generator for student recognition? The garden is ready for harvest 🌸
 
 ## 🚀 Getting Started
 
