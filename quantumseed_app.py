@@ -16,9 +16,11 @@ st.markdown("""
     </p>
 </div>
 """, unsafe_allow_html=True)
-
-with open("quantumseed/styles/poetic_theme.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+try:
+    with open("quantumseed/styles/poetic_theme.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+except FileNotFoundError:
+    st.warning("Poetic theme not found — using default styling.")
 
 # Sidebar: Educator Toggles
 st.sidebar.title("Educator Controls 🌿")
