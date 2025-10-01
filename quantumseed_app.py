@@ -2,6 +2,9 @@ import streamlit as st
 from quantumseed_engine import apply_gate, measure_qubit
 from bloch_visualizer import plot_bloch_sphere
 from quantumseed_manifest import GATE_METAPHORS
+import os
+css_path = os.path.join("styles", "poetic_theme.css")
+
 
 st.set_page_config(page_title="QuantumSeed", layout="wide")
 # 🌸 Poetic Splash Screen
