@@ -3,8 +3,6 @@ from quantumseed_engine import apply_gate, measure_qubit
 from bloch_visualizer import plot_bloch_sphere
 from quantumseed_manifest import GATE_METAPHORS
 import os
-css_path = os.path.join("styles", "poetic_theme.css")
-
 
 st.set_page_config(page_title="QuantumSeed", layout="wide")
 # 🌸 Poetic Splash Screen
@@ -19,12 +17,14 @@ st.markdown("""
     </p>
 </div>
 """, unsafe_allow_html=True)
+
+# 🌱 Load poetic theme
+css_path = os.path.join("styles", "poetic_theme.css")  # ← Add this here
 try:
-    with open("styles/poetic_theme.css") as f:
+    with open(css_path) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 except FileNotFoundError:
     st.warning("Poetic theme not found — using default styling.")
-
 
 # Sidebar: Educator Toggles
 st.sidebar.title("Educator Controls 🌿")
