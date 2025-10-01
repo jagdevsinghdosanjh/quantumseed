@@ -1,0 +1,39 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Streamlit cache and logs
+.streamlit/
+*.log
+
+# Jupyter notebooks (if used)
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+*.swp
+
+# Data files (optional: keep if versioned)
+data/student_submissions.json
+data/badge_records.json
+
+# Assets (optional: keep if versioned)
+assets/logo.png
+assets/backgrounds/
+
+# Styles (optional: keep if versioned)
+styles/poetic_theme.css
