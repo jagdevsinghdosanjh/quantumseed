@@ -1,0 +1,19 @@
+body {
+    background-image: url("assets/backgrounds/quantum_garden.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Georgia', serif;
+    color: #2c2c2c;
+}
+
+h1, h2, h3 {
+    color: #6a0dad;
+    text-shadow: 1px 1px 2px #dcdcdc;
+}
+
+.stMarkdown {
+    background-color: rgba(144, 218, 236, 0.85);
+    padding: 1rem;
+    border-radius: 10px;
+}
